@@ -1,0 +1,217 @@
+:root{
+    --color-dark:#2E2F42;
+    --color-grayish:#434455;
+    --color-sky:#4D5AE5;
+    --color-light: #ffffff;
+    --color-snowy:#E5E5E5;
+    --color-with-impurities:#E7E9FC;
+    --color-almost-white:#F4F4FD;
+  }
+  .body{
+    font-family: "Roboto";
+    background-color: var(--color-snowy)
+  }
+  /*HEADER*/
+.header-list{
+list-style: none;
+}
+.header-title {
+font-family: Raleway ; 
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+text-decoration: none;
+letter-spacing: 0.03em;
+}
+.particle{
+    color: var(--color-sky)
+}
+
+.header-list-item{
+    text-style:Bold;
+    font-family: "Roboto";
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.50;
+    color: var(--color-dark);
+    text-decoration: none;
+}
+.header-phone{
+    list-style: none;
+}
+.header-link{
+font-family: "Roboto";
+font-style: Regular;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--color-grayish);
+text-decoration: none;
+t
+}
+/*SECTION WITH A BUTTON*/
+.upper-section{
+ background-color:var(--color-dark);
+}
+.section-title{
+ font-family: "Roboto";
+ font-size: 56px;
+line-height: 10.7;
+letter-spacing: 0.02em;
+color:var(--color-light);
+}
+.button{
+font-family: "Roboto";
+font-style: normal;
+background-color:var(--color-sky);
+border: none;
+ font-size: 16px;
+line-height: 1.18;
+vertical-align: Center;
+letter-spacing: 0.04em;
+}
+.skills-list{
+list-style: none;
+}
+.skills-title{
+    font-family: "Roboto";
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+.text-skills{
+font-family: "Roboto";
+font-style: Regular;
+font-size: 16px;
+line-height: 1.50;
+vertical-align: Top;
+letter-spacing: 0.02em;
+color: var(--color-grayish)
+}
+.list-photo{
+    list-style: none;
+}
+.subtitle{
+font-family: "Roboto";
+font-style: SemiBold;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+/*LOWER-SECTION*/
+.lower-section{
+font-family: "Roboto";
+font-style: SemiBold;
+font-size: 36px;
+line-height: 1.11;
+vertical-align: Top;
+letter-spacing: 0.02em;
+color: var(--color-dark);
+}
+.lower-list{
+    list-style: none;
+}
+.title-list{
+font-family: "Roboto";
+font-style: SemiBold;
+font-size: 20px;
+line-height: 1.20;
+vertical-align: Top;
+letter-spacing: 0.02em;
+color: var(--color-dark);
+}
+.section-text{
+font-family: "Roboto";
+font-style: Regular;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--color-grayish)
+}
+.bobl{
+    background-color:var(--color-with-impurities) ;
+}
+/*FOOTER*/
+.footer{
+    background-color: var(--color-dark);
+}
+.title-footer {
+font-family: "Raleway";
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--color-almost-white);
+}
+.half{
+    color: var(--color-sky);
+}
+ .text-footer{
+font-family: "Roboto";
+font-size: 16px;
+line-height: 1.50;
+vertical-align: Top;
+letter-spacing: 0.02em;
+color: var(--color-with-impurities);
+    }
+   .photo-list{
+    background-color: var(--color-with-impurities)
+   }
+   /*  BOTTONS*/
+   .button-section{
+    font-family: "Roboto";
+    list-style: none;
+    }
+    .button-port{
+        border: 1px solid var(--color-with-impurities);
+        border-radius: 4px;
+        width: 116px;
+        height: 48px;
+        color: var(--color-almost-white);
+      }.button-port:hover{
+        
+        background-color: var(--color-sky);
+      }
+
+    .text-button{
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.04em;
+        color: var(--color-sky);
+    }
+    .text-button:hover{
+        color: var(--color-light);
+    }
+    
+  /*   PORTFOLIO-PHOTO-SECTION*/
+   .section-photo{
+    font-family: "Roboto";
+
+   }
+   .photo-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color: var(--color-dark);
+   }
+   .photo-txt{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--color-grayish);
+
+   }
+   .images{
+    background-color: var(--color-light);
+   }
+   .photo-style{
+    
+    list-style: none;
+   }
